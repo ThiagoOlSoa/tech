@@ -1,0 +1,27 @@
+#opa{
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
+}
+
+.opaaa{
+    background-color: aqua;
+    margin: 10px;
+    height: stretch;
+}
+
+.opaa{
+    background-color: rgb(136, 167, 167);
+    margin: 10px;
+    height: stretch;
+}
+
+.opa{
+    background-color: rgb(37, 54, 54);
+    margin: 10px;
+    height: stretch;
+    color: aliceblue;
+}
